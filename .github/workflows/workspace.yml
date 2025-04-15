@@ -59,5 +59,4 @@ jobs:
       - uses: dtolnay/rust-toolchain@master
         with:
           toolchain: nightly
-          components: rustfmt
       - run: cargo bench

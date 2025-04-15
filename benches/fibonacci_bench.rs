@@ -2,7 +2,7 @@
 
 extern crate test;
 
-use fib_bench_test::fibonacci;
+use fib_bench_test::fibonacci::{fibonacci_loop, fibonacci_rec};
 use test::Bencher;
 
 #[bench]
